@@ -1,0 +1,13 @@
+1 - migration, crio a migration da tabela nova com: yarn typeorm migration:create -n CreateNomeTabela
+
+2 - dentro da migration criada, criar a tabela com queryRunner.createTable() na funcao up e drop table na funcao down caso a criacao de errado
+
+3 - Criar Entity
+ 
+4 - Criar Repository
+
+5 - Criar Service
+
+6 - Criar Controller 
+
+7 - Criar Route
